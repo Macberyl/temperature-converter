@@ -1,0 +1,52 @@
+body{
+    font-family:Arial,sans-serif;
+    text-align: center;
+    background:white;
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.converter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+input, select,button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    background: blue;
+    color: white;
+    border: none;
+}
+button:hover{
+    background: blue;
+}
+#history{
+    list-style:none;
+    padding: 0;
+}
+#history li{
+    background: whitesmoke;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#history li:hover{
+    background:#d1d1d1;
+}
